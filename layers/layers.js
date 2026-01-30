@@ -3,6 +3,7 @@ var wms_layers = [];
 
         var lyr_WazeWorld_0 = new ol.layer.Tile({
             'title': 'Waze (World)',
+            'type':'base',
             'opacity': 1.000000,
             
             
@@ -14,6 +15,7 @@ var wms_layers = [];
 
         var lyr_GoogleTraffic_1 = new ol.layer.Tile({
             'title': 'Google Traffic',
+            'type':'base',
             'opacity': 1.000000,
             
             
@@ -25,6 +27,7 @@ var wms_layers = [];
 
         var lyr_GoogleTerrain_2 = new ol.layer.Tile({
             'title': 'Google Terrain',
+            'type':'base',
             'opacity': 1.000000,
             
             
@@ -36,6 +39,7 @@ var wms_layers = [];
 
         var lyr_GoogleHybrid_3 = new ol.layer.Tile({
             'title': 'Google Hybrid',
+            'type':'base',
             'opacity': 1.000000,
             
             
@@ -47,6 +51,7 @@ var wms_layers = [];
 
         var lyr_GoogleRoad_4 = new ol.layer.Tile({
             'title': 'Google Road',
+            'type':'base',
             'opacity': 1.000000,
             
             
@@ -58,6 +63,7 @@ var wms_layers = [];
 
         var lyr_GoogleSatellite_5 = new ol.layer.Tile({
             'title': 'Google Satellite',
+            'type':'base',
             'opacity': 1.000000,
             
             
